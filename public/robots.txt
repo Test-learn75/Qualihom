@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Optimized crawling directives
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?*
+Disallow: /*/preview
+Disallow: /*/draft
+
+# Rate limiting
+Crawl-delay: 10
+
+# Sitemap declaration
+Sitemap: https://qualihom.io/sitemap.xml
